@@ -62,7 +62,7 @@ All the logic will be saved in the **/lib/controllers/crmController.ts**
 
     const Contact = mongoose.model('Contact', ContactSchema);
     export class ContactController{
-    ...
+    
     public addNewContact (req: Request, res: Response) {                
         let newContact = new Contact(req.body);
     

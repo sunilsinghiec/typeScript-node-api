@@ -137,7 +137,7 @@ Or you can connect to the mongo shell with username and password you just create
 
 .. code-block:: bash 
 
-    mongo --port 27017 -u dalenguyen -p 123123  --authenticationDatabase CRMdb
+    mongo --port 27017 -u sunil -p 12345  --authenticationDatabase CRMdb
 
 Now, if we try to access the database even with the key, we are not able to.
 
@@ -156,7 +156,7 @@ That’s why we need to edit the mongodb URL in order for the app to work. Again
 
     class App {
     ...
-    public mongoUrl: string = 'mongodb://dalenguyen:123123@localhost:27017/CRMdb';
+    public mongoUrl: string = 'mongodb://sunil:12345@localhost:27017/CRMdb';
 
 Then you restart RESTful API, everything will starts working fine again, but now you have a more secure and control API application. There are more security methods that we can implement to improve our application. I will try to update all of them in other posts.
 
