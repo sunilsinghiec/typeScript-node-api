@@ -20,8 +20,8 @@
 # -- Project information -----------------------------------------------------
 
 project = 'Building RESTful Web APIs with Node.js, Express, MongoDB and TypeScript'
-copyright = '2019, Dale Nguyen'
-author = 'Dale Nguyen'
+copyright = '2020 Sunil'
+author = 'Sunil'
 
 # The short X.Y version
 version = '1.0.0'
