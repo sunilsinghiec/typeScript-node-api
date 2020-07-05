@@ -21,7 +21,7 @@ After that, you will have to replace the mongoURL with your MongoDB address in *
 ## Clone this repository
 
 ```
-git clone git@github.com:dalenguyen/rest-api-node-typescript.git .
+git clone git@github.com:dalenguyen/typeScript-node-api.git .
 ```
 
 Then install the dependencies
